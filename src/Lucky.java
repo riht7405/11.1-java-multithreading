@@ -10,7 +10,7 @@ public class Lucky {
     }
 
     static class LuckyThread extends Thread {
-        @Override
+        @Override//
         public void run() {
             while (true) {
                 int currentX = getNextNumber();
