@@ -11,7 +11,7 @@ public class UnLucky {
                         % 10 + (x / 10000) % 10 + (x / 100000) % 10) {
                     System.out.println(x);
                     count++;
-                }
+                }//
             }
         }
     }
